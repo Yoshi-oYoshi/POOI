@@ -1,0 +1,5 @@
+phrase = input('Insira uma frase:\n')
+x = phrase.lower()
+print('Aparecerem', phrase.count('a'),'a(s) nesta frase.')
+print('A primeira na posição:', x.find('a'))
+print('A última na posição:', len(x) - x[::-1].find('a')-1 )

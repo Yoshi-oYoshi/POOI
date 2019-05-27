@@ -1,0 +1,1 @@
+print('fogo'.ljust(20, '-'))
